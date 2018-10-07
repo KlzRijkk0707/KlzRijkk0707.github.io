@@ -1,53 +1,103 @@
-* {
-    box-sizing: border-box;
-}
-.box{
+body{
 	display: grid;
+	grid-template-columns: 100% ;
+	grid-template-rows: 20% 80%;
+	margin:0;
 }
 
-.fbox{
-	display:flex;
-	border-style:solid;
-	border-width: 3px;
-	flex-direction:column;
-	align-items: center;
+
+
+
+/*CSS FOR HEADER*/
+header{
+	
+	background-color: blue;
+	color:white;
+	text-align:center;
+	margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+	
+}
+header div{
+	display: inline-block;
+	border: solid 3px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/*END HEADER*/
+
+/*ALLBOX SECTION*/
+
+#allBox{	
+	margin-top:10px;
+	padding-left:15px;
+	padding-right:15px;
+    display: grid;
+    grid-template-columns: 15% 20% 55% 20%;
+}
+/*END OF ALLBOX*/
+
+
+/*CSS FOR SIDEBAR*/
+
+#sidebar{
+	
+	float:left;
+	background-color:darkgrey;
+	padding-left:3px;
+	padding-top:5px;
+	
 }
 
 img{
 	border-radius: 50%;
-}
-
-#container{
-	display: grid;
-}
-
-#sidebar{
-	display: grid;
-	grid-column-end:column-line;
-	grid-row:1/8;
-	justify-content:center;
-}
-
-
-/*work experience section*/
-
-/*education section*/
-
-
-.eduyr{
-	/*display:flex;*/
-	float: left;
-}
-.dgree{
-	/*display:flex;*/
-	float:right;
-}
-
-/*Skill section*/
- .p1{
+	height: 160px;
+    width: 160px;
 	
-	float:left;
 }
-.p2{
+.imgBox{
+	text-align:center;
+}
+.line{
+	background-color:black;
+	height:3px;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:3px;
+	margin-right:3px;
+}
+.contactInfo p{
+	margin:0;
+	
+}
+/*END SIDEBAR*/
+
+
+/*CSS INFO*/
+#info{
+	display:grid;
 	float:right;
+	grid-template-areas: "BIO" 
+						 "WRK"
+						 "EDU"
+						 "SKL";
+
 }
+
+.bio{
+	grid-area: BIO;
+}
+.edu{
+	grid-area: WRK;
+}
+.wrk{
+	grid-area: EDU;
+}
+.skl{
+	grid-area: SKL;
+}
+/*END INFO*/
