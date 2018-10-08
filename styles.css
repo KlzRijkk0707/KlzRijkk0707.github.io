@@ -34,10 +34,8 @@ header div{
 
 #allBox{	
 	margin-top:10px;
-	padding-left:15px;
-	padding-right:15px;
     display: grid;
-    grid-template-columns: 15% 20% 55% 20%;
+    grid-template-columns: 15% 15% 45% 25%;
 }
 /*END OF ALLBOX*/
 
@@ -50,6 +48,7 @@ header div{
 	background-color:darkgrey;
 	padding-left:3px;
 	padding-top:5px;
+	margin-right:10px;
 	
 }
 
@@ -85,19 +84,77 @@ img{
 						 "WRK"
 						 "EDU"
 						 "SKL";
-
+    margin-left:10px;
 }
 
 .bio{
 	grid-area: BIO;
+	
+    border-bottom: solid 2px;
+    border-bottom-color: darkgrey;
 }
 .edu{
-	grid-area: WRK;
+	grid-area: EDU;
+	
+    border-bottom: solid 2px;
+    border-bottom-color: darkgrey;
 }
 .wrk{
-	grid-area: EDU;
+	grid-area: WRK;
+	
+    border-bottom: solid 2px;
+    border-bottom-color: darkgrey;
 }
 .skl{
 	grid-area: SKL;
 }
+
+
+/*work experience*/
+.sec2 {
+    display: flex;
+    justify-content:space-between;
+}
+.expyr{
+	float: left;
+}
+.exwrk{
+	float: right;
+}
+/*end work experience*/
+
+/*education*/
+.sec1 {
+    display: flex;
+    justify-content:space-between;
+}
+
+.eduyr{
+	
+	float: left;
+}
+.dgree{
+	
+	float:right;
+
+}
+
+
+
+/*end education*/
+
+/*skill*/
+ .p1{
+	float:left;
+}
+	
+.p2{
+	float:right;
+}
+/*end skill*/
+
+/**/
+/**/
+
+
 /*END INFO*/
