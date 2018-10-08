@@ -36,6 +36,7 @@ header div{
 	margin-top:10px;
     display: grid;
     grid-template-columns: 15% 15% 45% 25%;
+    margin-bottom:5px;
 }
 /*END OF ALLBOX*/
 
