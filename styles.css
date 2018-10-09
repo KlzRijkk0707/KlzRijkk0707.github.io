@@ -9,21 +9,20 @@ body{
 
 
 /*CSS FOR HEADER*/
-header{
-	
-	background-color: blue;
-	color:white;
-	text-align:center;
-	margin-left: 100px;
-    margin-right: 100px;
+header {
+    background-color: hsl(180, 100%, 35%);
+    color: white;
+    text-align: center;
+    margin-top:4px;
+    margin-left: 104px;
+    margin-right: 104px;
     padding-bottom: 40px;
     padding-top: 20px;
-	
 }
 header div{
 	display: inline-block;
-	border: solid 3px;
-    padding-bottom: 3px;
+	border: solid 1px;
+    padding-bottom: 6px;
     padding-top: 3px;
     padding-left: 30px;
     padding-right: 30px;
@@ -35,7 +34,7 @@ header div{
 #allBox{	
 	margin-top:10px;
     display: grid;
-    grid-template-columns: 15% 15% 45% 25%;
+    grid-template-columns: 15% 15% 40% 30%;
     margin-bottom:5px;
 }
 /*END OF ALLBOX*/
