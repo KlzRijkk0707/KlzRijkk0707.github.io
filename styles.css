@@ -32,7 +32,7 @@ header div{
 /*ALLBOX SECTION*/
 
 #allBox{	
-	margin-top:10px;
+	margin-top:15px;
     display: grid;
     grid-template-columns: 15% 15% 40% 30%;
     margin-bottom:5px;
