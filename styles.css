@@ -42,14 +42,12 @@ header div{
 
 /*CSS FOR SIDEBAR*/
 
-#sidebar{
-	
-	float:left;
-	background-color:darkgrey;
-	padding-left:3px;
-	padding-top:5px;
-	margin-right:10px;
-	
+#sidebar {
+    float: left;
+    background-color: #dfdfdf;
+    padding-left: 3px;
+    padding-top: 5px;
+    margin-right: 10px;
 }
 
 img{
